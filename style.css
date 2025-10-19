@@ -41,7 +41,7 @@ nav ul li a{
     #E2DEC5,
     #FBF3D1);
 }
-.accueil-content .accueil-img img{
+.accueil-img img{
   width: 126px;
   height: 137px;
   border:4px solid white;
@@ -295,3 +295,4 @@ footer{
         
 
        
+
