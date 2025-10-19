@@ -42,7 +42,8 @@ nav ul li a{
     #FBF3D1);
 }
 .accueil-content .accueil-img img{
-
+  width: 126px;
+  height: 137px;
   border:4px solid white;
   display: block;
   margin: 0 auto;
@@ -105,8 +106,10 @@ nav ul li a{
 }
 .apropos-content{
     display: flex ;
+
     flex-wrap: wrap; 
-    gap: 120px;
+    gap: 60px;
+    padding: 50px;
 }
 h1{
     padding: 50px 0px 70px 50px;
@@ -114,17 +117,18 @@ h1{
     color: #A59D84;
 }
 
-.apropos-text p{
+.apropos-text {
     margin-left:150px;
-    color: #A59D84;
-    padding: 25px;
-    display: flex;
     background-color: aliceblue;
-    
-    font-size: 15px;
+    color: hsl(45, 15%, 58%);
+    padding: 30px 30px;
+    width: 450px;
+    font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height:35px;
-    border-radius: 45px;
+    line-height:1.8;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    
 }
 
 .apropos-img img{
@@ -132,7 +136,6 @@ h1{
     height: 600px;
     margin-left: 70%;
     margin-top: -7rem;
-    background-color: aliceblue;
     box-shadow: 0 10px 50px 0 rgba(0, 0, 0.2, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.25);
     border:1rem  solid aliceblue;
 }
@@ -147,44 +150,45 @@ h1{
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
-  gap: 200px;
-   
-}
-.projets-content h1{
-   padding: 50px 0px 70px 50px;
-    font-size: 60px;
-    color: aliceblue;  
-   
-}
-.projet-article1{
-    background-color: aliceblue;
-    color: #4E4D4A;
-    padding: 50px;
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 2.5rem;
-    border-radius: 35px;
-     list-style: none;
-}
-.projet-article2{
-    background-color: aliceblue;
-    color: #4E4D4A;
-    padding: 50px;
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 2.5rem;
-    border-radius: 35px;
-    list-style: none;
-
+  gap: 100px;
+   padding: 40px;
 }
 
-.projets-buttons li a {
-    color: #4E4D4A;
-        text-decoration: none;
-}
-.projets-buttons li a:hover{
+.projet-article1 ,.projet-article2 {
     background-color: aliceblue;
-    color: #A59D84;
+    color: #4E4D4A;
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2.3rem;
+    border-radius: 20px; 
+    width: 450px;
+    height: 410px ;
+    justify-content: center;
+
+}
+.projets-img img{
+    width: 300px;
+    height: 60px;
+}
+.projets-buttons ul{
+    list-style: none; 
+    
+}
+
+.projets-buttons ul li a {
+     border: 2px solid #B6AE9F;
+     padding: 10px 15px;
+     border-radius: 20px;
+     transition: 0.3s;
+      color: #4E4D4A;
+      text-decoration: none;
+      font-size: 12px; 
+     
+}
+.projets-buttons ul li a:hover{
+    background-color: #A59D84;
+    color: aliceblue;
 }
 
 #contact{
@@ -229,7 +233,7 @@ h1{
     background-color: aliceblue;
     border-radius: 30px;
     width: fit-content;
-    box-shadow:0 4px 25px rgba(0, 0, 0, 0.15); ;
+    box-shadow:0 4px 25px rgba(0, 0, 0, 0.15); 
   
 }
 .contact-text h2{
@@ -289,4 +293,5 @@ footer{
 
        
         
+
        
